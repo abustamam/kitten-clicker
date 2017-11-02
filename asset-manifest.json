@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.64d5cba8.css",
   "main.css.map": "static/css/main.64d5cba8.css.map",
-  "main.js": "static/js/main.27d466c6.js",
-  "main.js.map": "static/js/main.27d466c6.js.map",
+  "main.js": "static/js/main.f9154945.js",
+  "main.js.map": "static/js/main.f9154945.js.map",
   "static/media/kitten01.jpg": "static/media/kitten01.83920499.jpg",
   "static/media/kitten02.jpg": "static/media/kitten02.e000d859.jpg",
   "static/media/kitten03.png": "static/media/kitten03.460e4377.png",
@@ -12,5 +12,6 @@
   "static/media/kitten07.jpg": "static/media/kitten07.c792534a.jpg",
   "static/media/kitten08.jpg": "static/media/kitten08.90fceb21.jpg",
   "static/media/kitten09.jpg": "static/media/kitten09.f61692d0.jpg",
-  "static/media/kitten10.png": "static/media/kitten10.915e2d72.png"
+  "static/media/kitten10.png": "static/media/kitten10.915e2d72.png",
+  "static/media/kitten11.jpg": "static/media/kitten11.7da0d7d4.jpg"
 }
