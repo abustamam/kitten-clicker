@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 class Mycomponent extends Component {
   render() {
-    return <div>Hi i am my component</div>;
+    return <div>Hi i am my component</div>
   }
 }
 
@@ -20,9 +20,11 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and load to reload.
         </p>
         <Mycomponent />
+        <Mycomponent />
+        <Mycomponent />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
