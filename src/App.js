@@ -2,9 +2,24 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
-class Mycomponent extends Component {
+class Counter extends Component {
+  state = {
+    count: 0,
+  }
+
+  handleClick() {
+    this.setState({
+      count: this.state.count + 1,
+    })
+  }
+
   render() {
-    return <div className="Mycomponent">Hi i am my component</div>
+    const { count } = this.state
+    return (
+      <div className="Mycomponent" onClick={this.handleClick.bind(this)}>
+        Hi i am my component {count}
+      </div>
+    )
   }
 }
 
@@ -19,9 +34,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and load to reload.
         </p>
-        <Mycomponent />
-        <Mycomponent />
-        <Mycomponent />
+        <Counter />
+        <Counter />
+        <Counter />
       </div>
     )
   }
